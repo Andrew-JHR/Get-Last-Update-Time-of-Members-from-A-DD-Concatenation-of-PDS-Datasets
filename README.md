@@ -12,5 +12,5 @@
 
 6. In **PDSINFDD.JCL** a second step of invoking SORT is employed to sort the Date/Time in descending order, so the most recently updated members are displayed first.
 
-7. A variant of **PDSINFDD.asm**: **PDSINFDV.asm* is also included. So uncatalogued PDS data sets can also be put under the same DD card: **SYSUT1** with other catalogued PDS's, but ***UNIT=SYSDA,VOL=SER=xxxxxx*** keywords have to be added into the JCL DD statements, where xxxxxx should be replaced with a correct 6-letter Volume Serial Name. 
+7. A variant of **PDSINFDD.asm**: **PDSINFDV.asm** is also included. So uncatalogued PDS data sets can also be put under the same DD card: **SYSUT1** with other catalogued PDS's, but ***UNIT=SYSDA,VOL=SER=xxxxxx*** keywords have to be added into the JCL DD statements, where xxxxxx should be replaced with a correct 6-letter Volume Serial Name. 
 
